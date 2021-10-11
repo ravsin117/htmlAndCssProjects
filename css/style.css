@@ -36,7 +36,12 @@ h1, h2, h3{
     letter-spacing:0.15em;
     font-weight:500;
 }
-/*----------------- utitlity class------------------------*/
+/*##########################utitlity class#########################*/
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+}
 .lg-heading{
     font-size:3.5rem;
 }
@@ -59,7 +64,7 @@ h1, h2, h3{
     color:#555555
 }
 
-
+/* ---------------------------------------------------- */
 .header{
     height:95vh;
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/header-image.jpg');
@@ -70,7 +75,6 @@ h1, h2, h3{
 
 
 .nav-bar{
-    border:2px solid white;
     padding :1rem;   /*diff*/
 }
 
@@ -79,6 +83,13 @@ h1, h2, h3{
     color:#f4f4f4;
 }
 
+.nav-bar a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.nav-bar a{
+    padding:0.3rem;
+}
 .header .nav-bar .logo{
     float:left;
     
