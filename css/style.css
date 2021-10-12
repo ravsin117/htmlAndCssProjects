@@ -209,35 +209,38 @@ h1, h2, h3{
 .features{
     padding:10rem 0;
 }
+.box-wrapper{
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.89);
+}
 .box-wrapper .box-1{
     /* border:2px solid red ; */
-    height:100%;
+    
     width:33.333%;
     float:left;
     text-align:center;
-    padding:5px;
-    background-color:#333;
+    padding:10px;
+    background-color:#263238;
     color:white;
 }
 
 .box-wrapper .box-2{
     /* border:2px solid purple; */
-    height:100%;
+    
     width:33.333%;
     float:left;
     text-align:center;
-    padding:5px;
-    background-color:#e63946;
+    padding:10px;
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
     color:white;
 }
 .box-wrapper .box-3{
     /* border:2px solid green; */
-    height:100%;
+    
     width:33.333%;
     float:left;
     text-align:center;
-    padding:5px;
-    background-color:#333;
+    padding:10px;
+    background-color:#263238;
     color:white;
 }
 
