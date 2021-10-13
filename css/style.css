@@ -466,5 +466,122 @@ textarea{
     cursor:pointer;
 }
 
+/* ######################### media queries ######################### */
+@media (max-width:500px){
+    html{
+        font-size:50%; /*html has default ->16px (100%) and we want to use 8px so we write 50% */
+    }
+    p{
+        font-size:1.5rem;
+    }
+    .nav-bar .nav-items, .nav-bar .logo{
+        float:none;
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+    .header-content p{
+        display:none;
+    }
+    .row{
+        height:auto;
+        width:100%;
+    }
+    .row .img-box,.row .text-box{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .box-wrapper .box-1,.box-wrapper .box-2,.box-wrapper .box-3{
+        float:none;
+        width:100%;
+        text-align:center;
+        margin:7rem;
+        box-shadow:0px 0px 20px 0 rgba(0, 0, 0, 0.89);
+    }
+    .box-wrapper{
+        box-shadow:none;
+    }
+    .description , .contact-btn{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .form-wrapper .company-address{
+        float:none;
+        width:100%;
+        height:auto;
+        margin-bottom:5rem;
+    }
+    .form-wrapper .form{
+        float:none;
+        width:100%;
+        height:auto;
+    }
+}
 
+@media(min-width:501px) and (max-width:768px){
+    html{
+        font-size:50%; /*html has default ->16px (100%) and we want to use 8px so we write 50% */
+    }
+    p{
+        font-size:1.8rem;
+    }
+    .nav-bar .nav-items, .nav-bar .logo{
+        float:none;
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+    
+    .row{
+        height:auto;
+        width:100%;
+    }
+    .row .img-box,.row .text-box{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .box-wrapper .box-1,.box-wrapper .box-2,.box-wrapper .box-3{
+        float:none;
+        width:100%;
+        text-align:center;
+        margin:7rem;
+        box-shadow:0px 0px 20px 0 rgba(0, 0, 0, 0.89);
+    }
+    .box-wrapper{
+        box-shadow:none;
+    }
+    .description , .contact-btn{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .form-wrapper .company-address{
+        float:none;
+        width:100%;
+        height:auto;
+        margin-bottom:5rem;
+    }
+    .form-wrapper .form{
+        float:none;
+        width:100%;
+        height:auto;
+    }
+}
+@media(min-width:768px)and(max-width:1200px){
+    html{
+        font-size:56.25%;
+    }
+    .row .text-box h2{
+        font-size:3rem;
+    }
+}
+
+@media(orientation:landscape)and (max-height:500px){
+    .header{
+        height:90vmax;
+    }
+}
 
